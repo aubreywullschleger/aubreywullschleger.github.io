@@ -49,11 +49,15 @@ a {
   background: #162252;
 }
 
-a.btn.btn-primary:hover {
+a.btn.btn-primary:hover,
+a.btn.btn-primary:active,
+a.btn.btn-primary:focus {
   background: #96281B;
 }
 
-a.btn.btn-danger:hover {
+a.btn.btn-danger:hover,
+a.btn.btn-danger:active,
+a.btn.btn-danger:focus {
   background: #674172;
 }
 
