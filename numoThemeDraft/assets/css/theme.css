@@ -306,9 +306,9 @@ hr {
    ================================================== */
 .bg-intro {
     color: #FFF;
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/proPhoto.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right 0px top -40px;
     /*background-size*/
     -moz-background-size: cover;
     background-size: cover;
@@ -322,8 +322,8 @@ hr {
 .layer-intro {
     background-color:rgb(34,49,63);
     /* IE 8 OPACITY */
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-    background-color: rgba(34,49,63,.9);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    background-color: rgba(34,49,63,.8);
 }
 
 .bg-intro h1 {
@@ -410,10 +410,11 @@ hr {
 /* PORTFOLIO
    ================================================== */
 .row-portfolio {
-    margin-bottom: 138px;
+    margin-bottom: 15%;
 }
 
 .wrapper-portfolio {
+    border: 4px solid #34495E;
     border-radius:10px;
     margin: 0 auto;
     position: relative;
@@ -469,8 +470,8 @@ hr {
    ================================================== */
 .bg-skills {
     background-color: #F2F2F2;
-    padding-top: 130px;
-    padding-bottom: 130px;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .bg-skills h2 {
@@ -509,7 +510,7 @@ hr {
    ================================================== */
 .bg-services {
     padding-top: 0;
-    padding-bottom: 130px;
+    padding-bottom: 5%;
 }
 
 .bg-services h3 {
